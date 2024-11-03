@@ -2,7 +2,7 @@ body {
   font-family: Arial, sans-serif;
   text-align: center;
   color: #000000;
-  background-color:#e4be00;
+  background-color:#e3e2dd;
   padding: 0%;
   margin:0%;
 }
@@ -47,4 +47,10 @@ p{
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
   display: none;
+}
+
+/* images */
+#logoImage {
+  width: 80%; /* Set the width */
+  height: auto; /* Maintain aspect ratio */
 }
