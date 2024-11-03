@@ -15,6 +15,7 @@ p{
   font-size: 110%;
 }
 
+/*Navigation Bar*/
 .topnav {
   background-color: #333;
   overflow: hidden;
@@ -49,8 +50,31 @@ p{
   display: none;
 }
 
-/* images */
+/*FOOTER*/
+.footer {
+  background-color: #333;
+  color: #e3e2dd;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.footer a {
+  color: #e3e2dd;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+
+/* IMAGES */
 #logoImage {
-  width: 80%; /* Set the width */
+  width: 60%; /* Set the width */
   height: auto; /* Maintain aspect ratio */
 }
