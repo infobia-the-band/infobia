@@ -184,3 +184,7 @@ p{
   font-size: 2.5vw;
 }
 
+.current_gig {
+  max-width: 50%; /* Limit the maximum width */
+  height: auto; /* Maintain aspect ratio */
+}
