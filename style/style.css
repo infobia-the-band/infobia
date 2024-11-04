@@ -150,11 +150,16 @@ p{
 }
 
 /*EVENTS*/
-.future-events-info{
+.events-info{
   padding: 5%;
 }
 
-.past-events-info{
-  padding: 5%;
+.events-info img{
+  width:100%;
+}
 
+.events-info h2{
+  width:100%;
+  font-size: 3vw;
+  text-decoration: none;
 }
