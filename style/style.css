@@ -148,3 +148,13 @@ p{
     font-size: 14px;
     color: #666666;
 }
+
+/*EVENTS*/
+.future-events-info{
+  padding: 5%;
+}
+
+.past-events-info{
+  padding: 5%;
+
+}
