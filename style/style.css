@@ -9,11 +9,12 @@ body {
 
 h1 {
   font-size: 5vw;
+  text-decoration: underline;
 }
 
 h2{
-  text-decoration: underline;
-  font-size: 3vw;
+  text-decoration: none;
+  font-size: 3.5vw;
 }
 
 h3{
@@ -63,7 +64,7 @@ p{
 
 /*FOOTER*/
 .footer {
-  background-color: #333;
+  background-color: #000000;
   color: #e3e2dd;
   text-align: center;
   padding: 10px;
@@ -160,6 +161,7 @@ p{
 
 .events-info h2{
   width:100%;
-  font-size: 3vw;
-  text-decoration: none;
+  font-size: 2.5vw;
+  text-decoration: underline;
+  font-weight: lighter;
 }
