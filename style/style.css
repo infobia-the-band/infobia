@@ -83,6 +83,11 @@ p{
   width: 60%; /* Set the width */
   height: auto; /* Maintain aspect ratio */
 }
+
+.logoImage_2 {
+  width: 60%; /* Set the width */
+  height: auto; /* Maintain aspect ratio */
+}
 /*PROFILES*/
 
 .profile-grid {
