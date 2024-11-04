@@ -165,3 +165,8 @@ p{
   text-decoration: underline;
   font-weight: lighter;
 }
+
+.events-info a{
+  color: #212121b3;
+  text-decoration: underline;
+}
