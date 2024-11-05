@@ -30,8 +30,9 @@ p{
 /*Navigation Bar*/
 .topnav {
   background-color: #000000;
-  overflow: hidden;
-
+  display: flex;               /* Use flexbox to control alignment */
+  align-items: center;          /* Center items vertically */
+  padding: 10px 20px;           /* Optional: add padding to the container */
 }
 
 /* Style the links inside the navigation bar */
@@ -91,6 +92,30 @@ p{
 .logoImage_2 {
   width: 30%; /* Set the width */
   height: auto; /* Maintain aspect ratio */
+}
+
+.hover-animation {
+  transition: transform 0.3s ease;
+  width: 40px;                   /* Set the width as needed */
+  cursor: pointer;   
+}
+
+.hover-animation:hover {
+  animation: shake 0.5s ease-in-out;
+}
+
+@keyframes shake {
+  0%, 100% { transform: rotate(10deg); }
+  20%, 60% { transform: rotate(-10deg); }
+  40%, 80% { transform: rotate(10deg); }
+}
+
+
+.nav-image {
+  margin-left: auto;   /* Push the image to the far right */
+  padding-left: 1%; /* Add some padding between the image and the links */
+  width:25%;  /* Adjust as desired */
+  height: auto;
 }
 /*PROFILES*/
 
