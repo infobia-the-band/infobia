@@ -32,7 +32,7 @@ p{
   background-color: #000000;
   display: flex;               /* Use flexbox to control alignment */
   align-items: center;          /* Center items vertically */
-  padding: 10px 20px;           /* Optional: add padding to the container */
+  /*padding: 10px 20px; */          /* Optional: add padding to the container */
 }
 
 /* Style the links inside the navigation bar */
@@ -113,7 +113,7 @@ p{
 .nav-image {
   margin-left: auto;   /* Push the image to the far right */
   padding-left: 1%; /* Add some padding between the image and the links */
-  width:20%;  /* Adjust as desired */
+  width:10%;  /* Adjust as desired */
   height: auto;
 }
 /*PROFILES*/
