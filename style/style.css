@@ -185,6 +185,6 @@ p{
 }
 
 .current_gig {
-  max-width: 50%; /* Limit the maximum width */
+  max-width: 40%; /* Limit the maximum width */
   height: auto; /* Maintain aspect ratio */
 }
