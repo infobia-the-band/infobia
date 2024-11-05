@@ -8,19 +8,19 @@ body {
 }
 
 h1 {
-  font-size: 5vw;
+  font-size: 4vw;
   text-decoration: underline;
 }
 
 h2{
   text-decoration: none;
-  font-size: 3.5vw;
+  font-size: 2.5vw;
 }
 
 h3{
   text-align: left;
   padding: 10%;
-  font-size: 2.5vw;
+  font-size: 1.5vw;
 }
 
 p{
@@ -84,12 +84,12 @@ p{
 
 /* IMAGES */
 #logoImage {
-  width: 60%; /* Set the width */
+  width: 30%; /* Set the width */
   height: auto; /* Maintain aspect ratio */
 }
 
 .logoImage_2 {
-  width: 60%; /* Set the width */
+  width: 30%; /* Set the width */
   height: auto; /* Maintain aspect ratio */
 }
 /*PROFILES*/
@@ -181,10 +181,17 @@ p{
 .events-info p{
   color: #000000;
   text-decoration: none;
-  font-size: 2.5vw;
+  font-size: 1.5vw;
 }
 
 .current_gig {
-  max-width: 40%; /* Limit the maximum width */
+  max-width: 30%; /* Limit the maximum width */
   height: auto; /* Maintain aspect ratio */
 }
+
+.upcoming_gig{
+  display: flex;
+  gap: 30%; /* Adds space between the image and text */
+  padding-left: 5%;
+}
+
