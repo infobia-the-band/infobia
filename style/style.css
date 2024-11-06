@@ -8,8 +8,10 @@ body {
   overflow-x: hidden;
 }
 
+
+
 h1 {
-  font-size: 4vw;
+  font-size: 3vw;
   text-decoration: underline;
 }
 
@@ -124,20 +126,22 @@ p{
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* 4 columns */
   gap: 20px; /* Spacing between cards */
-  padding: 10%;
   max-width: 1200px; /* Optional: Set a maximum width for the grid */
   margin: auto;
+  justify-items: center;
+  padding-bottom: 10%;
+  
 }
         
 .profile-card {
-    background-color: #ffffff;
-    
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
-    text-align: center;
-    font-family: Arial, sans-serif;
-    /* Remove fixed width to allow cards to adapt to the grid layout */
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  width:70%;
+  height:auto;
 }
 
 .profile-card img {
