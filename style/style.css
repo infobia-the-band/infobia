@@ -210,14 +210,19 @@ p{
   font-size: 1.5vw;
 }
 
-.current_gig {
+
+
+.upcoming_gig{
+  display: flex;
+  gap: 10%; /* Adds space between the image and text */
+  justify-content: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.upcoming_gig img{
   max-width: 30%; /* Limit the maximum width */
   height: auto; /* Maintain aspect ratio */
 }
 
-.upcoming_gig{
-  display: flex;
-  gap: 30%; /* Adds space between the image and text */
-  padding-left: 5%;
-}
 
