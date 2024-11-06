@@ -125,7 +125,7 @@ p{
 .profile-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* 4 columns */
-  gap: 20px; /* Spacing between cards */
+  gap: 10px; /* Spacing between cards */
   max-width: 1200px; /* Optional: Set a maximum width for the grid */
   margin: auto;
   justify-items: center;
@@ -225,8 +225,10 @@ p{
 }
 
 .upcoming_gig img{
-  max-width: 30%; /* Limit the maximum width */
+  width: 30vw; /* Limit the maximum width */
   height: auto; /* Maintain aspect ratio */
+  min-width: 300px;
+
 }
 
 
