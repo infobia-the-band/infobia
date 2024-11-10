@@ -85,6 +85,16 @@ p{
   text-decoration: underline;
 }
 
+@media (max-width: 480px) {
+  .footer {
+    font-size: 12px;
+    padding: 5px;
+  }
+
+  .footer a {
+    margin: 0 8px;
+  }
+}
 
 /* IMAGES */
 #logoImage {
