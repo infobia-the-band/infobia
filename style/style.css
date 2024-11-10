@@ -242,11 +242,30 @@ p{
 }
 
 /*VIDEOS*/
-.music-tasters {
+.music-tasters-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(40%, 1fr)); /* Responsive columns */
   gap: 20px; /* Space between grid items */
   padding: 20px;
   max-width: 1200px; /* Optional max width */
   margin: auto;
+  padding-bottom: 10%;
+}
+
+.song-clip {
+  padding: 0;
+  margin: 0;
+}
+
+.song-clip h3{
+  text-align: center;
+  font-size: 3vw;
+  margin-bottom: 0.2em;
+}
+
+.song-clip img, 
+.song-clip video {
+  display: block;
+  margin: 0 auto; /* Center images and videos */
+  max-width: 100%; /* Ensure they fit within the container */
 }
