@@ -244,7 +244,7 @@ p{
 /*VIDEOS*/
 .music-tasters {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30%, 1fr)); /* Responsive columns */
+  grid-template-columns: repeat(auto-fit, minmax(40%, 1fr)); /* Responsive columns */
   gap: 20px; /* Space between grid items */
   padding: 20px;
   max-width: 1200px; /* Optional max width */
