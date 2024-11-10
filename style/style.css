@@ -261,6 +261,7 @@ p{
   text-align: center;
   font-size: 3vw;
   margin-bottom: 0.2em;
+  padding:0%
 }
 
 .song-clip img, 
@@ -268,4 +269,5 @@ p{
   display: block;
   margin: 0 auto; /* Center images and videos */
   max-width: 100%; /* Ensure they fit within the container */
+  padding:1%;
 }
